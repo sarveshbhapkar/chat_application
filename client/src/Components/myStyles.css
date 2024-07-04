@@ -4,17 +4,61 @@
     width: 90vw;
     display: flex;
     border-radius: 20px;
-    
+
 }
 
 .sidebar-container{
-
-    border: 5px solid red;
     flex: 0.3;
+    display: flex;
+    flex-direction: column;
 }
 
 .workArea-container{
 
-    border: 5px solid blue;
+    background-color: aquamarine;
     flex: 0.7;
 }
+
+
+.sb-header{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+}
+
+.sb-search {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+.search-box{
+    outline-width: 0;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.54);
+    width: 100%;
+}
+
+.sb-conversations {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    flex: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px;
+  }
